@@ -1,4 +1,5 @@
-# portfolio
+Portfolio
+
 Santhosh Reddy Parkula
 
 Software Engineer | Data Analyst
@@ -10,20 +11,17 @@ I value clean code, clear thinking, and solving real problems with technology.
 Skills
 
 Programming: Python, SQL, C, C++, HTML, CSS
-
 Data: Power BI, Data Cleaning, Visualization, Basic ML
-
 Tools: Git, Docker
-
 Other: Analytical Thinking, Problem Solving, Team Collaboration
 
 Selected Projects
 
-Geolocalization Application (Mobile)-Present
+Geolocalization Application (Mobile) – Present
 
-LifeDoner (Health Management System)-Present
+LifeDoner (Health Management System) – Present
 
-Retrieval Patterns from 3D Objects -Present
+Retrieval Patterns from 3D Objects – Present
 
 Global Sales Dashboard – Sales insights using Power BI and SQL
 
@@ -37,8 +35,8 @@ Carbon Footprint Analysis – MICE imputation and sustainability insights
 
 LifeDoner API – REST API built using .NET
 
-
 Contact
 
-LinkedIn: linkedin.com/in/santhoshreddyparkula
+LinkedIn: https://linkedin.com/in/santhoshreddyparkula
+
 Email: santhoshreddyparkula@gmail.com
