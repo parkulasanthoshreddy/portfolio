@@ -15,11 +15,14 @@ Data: Power BI, Data Cleaning, Visualization, Basic ML
 
 Tools: Git, Docker
 
-Backend: Firebase, REST APIs
-
 Other: Analytical Thinking, Problem Solving, Team Collaboration
 
 Selected Projects
+Geolocalization Application (Mobile)-Present
+
+LifeDoner (Health Management System)-Present
+
+Retrieval Patterns from 3D Objects -Present
 
 Global Sales Dashboard – Sales insights using Power BI and SQL
 
@@ -33,7 +36,6 @@ Carbon Footprint Analysis – MICE imputation and sustainability insights
 
 LifeDoner API – REST API built using .NET
 
-ConnectWorld – Real-time communication application (in progress)
 
 Contact
 
