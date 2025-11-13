@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Santhosh Reddy Parkula — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <div class="nav__brand">
+        <div class="nav__logo">SR</div>
+        <span class="nav__brand-text">Santhosh&nbsp;Reddy&nbsp;Parkula</span>
+      </div>
+
+      <ul class="nav__links">
+        <li><a class="nav__link" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#skills">Skills</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#education">Education</a></li>
+        <li><a class="nav__link nav__link--cta" href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- mobile toggle (CSS-only) -->
+      <label for="nav-toggle" class="nav__toggle">
+        <span class="nav__toggle-bar"></span>
+      </label>
+    </div>
+
+    <!-- hidden checkbox for mobile menu -->
+    <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+
+    <!-- MOBILE NAV -->
+    <ul class="nav__links nav__links--mobile">
+      <li><a class="nav__link" href="#home">Home</a></li>
+      <li><a class="nav__link" href="#about">About</a></li>
+      <li><a class="nav__link" href="#skills">Skills</a></li>
+      <li><a class="nav__link" href="#projects">Projects</a></li>
+      <li><a class="nav__link" href="#experience">Experience</a></li>
+      <li><a class="nav__link" href="#education">Education</a></li>
+      <li><a class="nav__link" href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="section hero container">
+      <div>
+        <span class="hero__tag">👋 Hi, I’m Santhosh</span>
+
+        <h1 class="hero__title">
+          Software Engineer &amp; <span class="hero__title-strong">Data Analyst</span>
+        </h1>
+
+        <p class="hero__lead">
+          I build reliable software and data-driven solutions. From visual geolocation and 3D pattern retrieval to dashboards
+          and ML models, I transform ideas &amp; datasets into impactful results.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#skills">View Skills</a>
+        </div>
+
+        <p class="hero__meta">
+          Rouen, France · +33 7 67 96 13 26 ·
+          <a href="mailto:santhoshreddyparkula@gmail.com">santhoshreddyparkula@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="hero__avatar-wrap">
+        <div class="hero__avatar">
+          <img src="images/profile-photo.jpg" alt="Profile photo of Santhosh Reddy Parkula">
+        </div>
+        <div class="hero__badge">Open to Opportunities</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <h2 class="section__title">About</h2>
+      <p class="section__desc">
+        Software Engineer &amp; Data Analyst currently pursuing a Master’s in Computer Science – Digital Transformation at
+        ESIGELEC, Rouen. I work across full-stack development, 3D data processing, and analytics — with projects in
+        geolocalization, hospital systems, and 3D relief pattern retrieval.
+      </p>
+
+      <div class="about__grid">
+        <div class="card">
+          <h3 class="card__title">Quick Bio</h3>
+          <p>
+            I have experience with .NET, Python, SQL, and cloud-based systems, plus strong data skills using Power BI and
+            Python (Pandas, NumPy, Matplotlib, Seaborn). I enjoy solving practical problems and presenting results in a
+            simple, visual way that non-technical people can understand.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Highlights</h3>
+          <div class="about__kpis">
+            <div class="kpi">
+              <div class="kpi__number">5+</div>
+              <div class="kpi__label">Data Projects</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__number">6+</div>
+              <div class="kpi__label">Software Projects</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__number">100%</div>
+              <div class="kpi__label">Team Collaboration</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section__title">Skills</h2>
+      <p class="section__desc">Technologies &amp; concepts I work with regularly.</p>
+
+      <div class="skills__layout">
+        <div>
+          <h3 class="section__subheading">Data &amp; Analytics</h3>
+          <div class="skills__grid">
+            <div class="chip">Python</div>
+            <div class="chip">Pandas</div>
+            <div class="chip">NumPy</div>
+            <div class="chip">Matplotlib</div>
+            <div class="chip">Seaborn</div>
+            <div class="chip">Power BI</div>
+            <div class="chip">Excel</div>
+            <div class="chip">EDA</div>
+            <div class="chip">Machine Learning Evaluation</div>
+          </div>
+
+          <h3 class="section__subheading">Programming</h3>
+          <div class="skills__grid">
+            <div class="chip">Python</div>
+            <div class="chip">Java</div>
+            <div class="chip">C</div>
+            <div class="chip">C++</div>
+            <div class="chip">HTML</div>
+            <div class="chip">CSS</div>
+            <div class="chip">SQL</div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="section__subheading">Frameworks &amp; Tools</h3>
+          <div class="skills__grid">
+            <div class="chip">.NET</div>
+            <div class="chip">Git &amp; GitHub</div>
+            <div class="chip">Postman</div>
+            <div class="chip">MS Office</div>
+            <div class="chip">Power BI</div>
+            <div class="chip">Hadoop</div>
+            <div class="chip">MapReduce</div>
+          </div>
+
+          <h3 class="section__subheading">Concepts &amp; Soft Skills</h3>
+          <div class="skills__grid skills__grid--wide">
+            <div class="chip">Big Data (Hadoop, MapReduce)</div>
+            <div class="chip">Data Handling (MICE)</div>
+            <div class="chip">SDLC</div>
+            <div class="chip">API Testing</div>
+            <div class="chip">Communication</div>
+            <div class="chip">Problem Solving</div>
+            <div class="chip">Analytical Thinking</div>
+            <div class="chip">Team Collaboration</div>
+          </div>
+          <p class="skills__caption">
+            Comfortable going from raw data &amp; requirements to clean code, analysis, and clear documentation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section__title">Projects</h2>
+
+      <!-- DATA PROJECTS -->
+      <h3 class="section__subheading">Data &amp; Analytics Projects</h3>
+      <div class="projects__grid">
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/sales-dashboard-dark-theme.png"
+                 alt="Global sales performance dashboard dark theme">
+          </div>
+          <h3 class="project__title">Global Sales Performance Dashboard</h3>
+          <p class="project__text">
+            Built an interactive Power BI dashboard to track revenue, profit, and KPIs by region, product, and time.
+            Helped identify under-performing regions and high-value customers.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Power BI</span>
+            <span class="tag-sm">SQL</span>
+            <span class="tag-sm">Excel</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/loan-default-prediction.jpeg"
+                 alt="Loan default prediction model charts">
+          </div>
+          <h3 class="project__title">Loan Default Prediction</h3>
+          <p class="project__text">
+            Cleaned loan data, engineered features, and trained ML models to predict default risk and support better
+            approval decisions with clear performance metrics.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">Pandas</span>
+            <span class="tag-sm">Scikit-learn</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/market-basket-analysis-retail.jpeg"
+                 alt="Retail market basket analysis visualization">
+          </div>
+          <h3 class="project__title">Market Basket Analysis (Retail)</h3>
+          <p class="project__text">
+            Used association rule mining (Apriori) to discover frequently bought-together products and proposed
+            cross-sell and upsell strategies for retail.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">Pandas</span>
+            <span class="tag-sm">mlxtend</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/healthcare-data-analysis-diabetes-risk.jpeg"
+                 alt="Healthcare data analysis dashboard for diabetes risk">
+          </div>
+          <h3 class="project__title">Healthcare Data Analysis (Diabetes Risk)</h3>
+          <p class="project__text">
+            Explored healthcare datasets to analyze diabetes-related indicators and visualized key risk factors to support
+            better awareness and early prevention.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">Pandas</span>
+            <span class="tag-sm">Matplotlib</span>
+            <span class="tag-sm">Power BI</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/carbon-footprint-sustainability-analysis.jpeg"
+                 alt="Carbon footprint and sustainability analysis dashboard">
+          </div>
+          <h3 class="project__title">Carbon Footprint &amp; Sustainability Analysis</h3>
+          <p class="project__text">
+            Cleaned environmental datasets using MICE, analyzed CO₂ emissions, GDP, and renewable energy usage, and built
+            visuals to support sustainability-focused decisions.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Python</span>
+            <span class="tag-sm">Pandas</span>
+            <span class="tag-sm">Plotly</span>
+            <span class="tag-sm">Power BI</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- SOFTWARE & RESEARCH PROJECTS -->
+      <h3 class="section__subheading">Software &amp; Research Projects</h3>
+      <div class="projects__grid">
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/geolocalization-application-mobile.jpeg"
+                 alt="Geolocalization Application mobile visual-based location system">
+          </div>
+          <h3 class="project__title">Geolocalization Application (Mobile) — Present</h3>
+          <p class="project__text">
+            Developed a visual-based geolocation system to determine object positions using image data. Applied
+            Triangulation, SIFT, and AKAZE algorithms to match features from multiple views and improve robustness.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">Computer Vision</span>
+            <span class="tag-sm">Triangulation</span>
+            <span class="tag-sm">SIFT</span>
+            <span class="tag-sm">AKAZE</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/lifedoner-health-management-system.jpeg"
+                 alt="LifeDoner health management system interface">
+          </div>
+          <h3 class="project__title">LifeDoner (Health Management System) — Present</h3>
+          <p class="project__text">
+            Designed a .NET 8 health management system to securely manage donor and hospital records. Built REST APIs for
+            real-time operations and enforced strong validation for data consistency.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">.NET 8</span>
+            <span class="tag-sm">C#</span>
+            <span class="tag-sm">SQL</span>
+            <span class="tag-sm">API</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb">
+            <img src="images/retrieval-patterns-from-3d-objects.jpeg"
+                 alt="3D relief-pattern retrieval visualization">
+          </div>
+          <h3 class="project__title">Retrieval Patterns from 3D Objects — Present</h3>
+          <p class="project__text">
+            Built a 3D relief-pattern recognition pipeline to identify engraved or textured surfaces in scan data. Applied
+            surface feature extraction and similarity analysis for forensic-style use cases.
+          </p>
+          <div class="project__tags">
+            <span class="tag-sm">3D Data</span>
+            <span class="tag-sm">Pattern Recognition</span>
+            <span class="tag-sm">Python</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__role">Associate Software Engineer — Magzest Consultancy Services Pvt. Ltd.</div>
+          <div class="timeline__meta">Hyderabad, India · Jun 2023 – Jan 2024</div>
+          <ul class="timeline__list">
+            <li>Designed and implemented enterprise-level software modules using efficient coding practices.</li>
+            <li>Handled data processing, debugging, and optimization tasks to improve system performance.</li>
+            <li>Collaborated with cross-functional teams to deliver scalable, reliable, and user-friendly applications.</li>
+            <li>Enhanced database operations and validation logic, improving application efficiency and reliability.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section container">
+      <h2 class="section__title">Education</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__role">Master’s in Computer Science – Digital Transformation</div>
+          <div class="timeline__meta">ESIGELEC, Rouen, France · Expected 2026</div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__role">Bachelor of Technology in Computer Science and Engineering</div>
+          <div class="timeline__meta">DEK College of Engineering and Technology, Hyderabad, India · Graduated 2023</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section__title">Contact</h2>
+      <p class="section__desc">
+        Let’s connect. I’m open to software &amp; data roles, internships, and collaboration.
+      </p>
+
+      <div class="contact__grid">
+        <form class="form" action="mailto:santhoshreddyparkula@gmail.com" method="post" enctype="text/plain">
+          <div class="form__row">
+            <input class="form__input" name="name" type="text" placeholder="Your name" required>
+            <input class="form__input" name="email" type="email" placeholder="Your email" required>
+          </div>
+          <input class="form__input" name="subject" type="text" placeholder="Subject" required>
+          <textarea class="form__textarea" name="message" placeholder="Your message" required></textarea>
+          <button class="btn btn--primary" type="submit">Send</button>
+        </form>
+
+        <div class="contact__links">
+          <div class="contact__info-line">
+            Rouen, France · +33 7 67 96 13 26
+          </div>
+          <a class="btn" href="mailto:santhoshreddyparkula@gmail.com">Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/santhoshreddyparkula" target="_blank">LinkedIn</a>
+          <a class="btn" href="https://github.com/parkulasanthoshreddy" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2025 Santhosh Reddy Parkula</span>
+      <span>Built with HTML &amp; CSS</span>
+    </div>
+  </footer>
+
+</body>
+</html>
