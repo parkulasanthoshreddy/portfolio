@@ -18,6 +18,7 @@ Tools: Git, Docker
 Other: Analytical Thinking, Problem Solving, Team Collaboration
 
 Selected Projects
+
 Geolocalization Application (Mobile)-Present
 
 LifeDoner (Health Management System)-Present
