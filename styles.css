@@ -402,6 +402,21 @@ a {
   color:var(--muted);
 }
 
+/* 🔹 NEW: Project actions (Results PDF button) */
+.project__actions {
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.project__actions .btn {
+  padding:8px 12px;
+  font-size:.85rem;
+  background:var(--card);
+  border:1px solid var(--border);
+}
+
 /* TIMELINE (Experience & Education) */
 .timeline {
   position:relative;
