@@ -404,7 +404,7 @@ a {
 
 /* 🔹 NEW: Project actions (Results PDF button) */
 .project__actions {
-  margin-top:10px;
+  margin-top:8px;
   display:flex;
   flex-wrap:wrap;
   gap:8px;
@@ -567,3 +567,4 @@ a {
     grid-template-columns:1fr;
   }
 }
+
